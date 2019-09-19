@@ -7,7 +7,7 @@ Something about me.
 
 ### loctempt
 
-Is a student living in CS city, China.
+Is a student majoring in CS and living in CS city, China.
 
 this is one of his favorite pictures (hope you like it ;-)   ):
 
