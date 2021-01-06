@@ -44,3 +44,6 @@ git config --global http.https://github.com.proxy 'socks5://127.0.0.1:1080'
 
 [Git HTTP Proxy and SSH Proxy](https://plantegg.github.io/2018/03/14/%E5%B0%B1%E6%98%AF%E8%A6%81%E4%BD%A0%E6%87%82git%E4%BB%A3%E7%90%86--%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AEgit%20Proxy/)
 
+## 注意
+
+通过http方式clone的仓库，其远端地址也是http格式的，所以push的时候会要求输入用户名和密码。在`.git/config`中将远端地址改称ssh格式即可自动验证身份。
